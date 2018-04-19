@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+  <class name="comm.example.IssueBook" table="issue_book">
+      <id name="id" column="id">
+          <generator class="assigned"/>
+      </id>
+      <property name="bcode" column="book_code"/>
+      <property name="bname" column="book_name"/>
+      <property name="idate" column="issue_date"/>
+      <property name="rdate" column="return_date"/>
+  </class>
+</hibernate-mapping>

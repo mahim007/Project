@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="comm.example.AddBookBean" table="book_list">
+        <id name="bkcode" column="book_code">
+            <generator class="assigned"/>
+        </id>
+        <property name="bkfield" column="related_field"/>
+        <property name="bkname" column="book_name"/>
+        <property name="fauthor" column="first_author"/>
+        <property name="sauthor" column="second_author"/>
+        <property name="bkedition" column="edition"/>
+        <property name="bkquantity" column="quantity"/>
+        <property name="endate" column="enlist_date"/>
+        <property name="bkprice" column="price"/>
+        <property name="bkrack" column="rack_no"/>
+    </class>
+</hibernate-mapping>
