@@ -1,0 +1,10 @@
+INSERT INTO student VALUES (1, 23, 'Java', 'mahim');
+INSERT INTO student VALUES (2, 22, 'C', 'nitol');
+INSERT INTO student VALUES (3, 23, 'C++', 'ornob');
+INSERT INTO student VALUES (4, 24, 'Python',  'srabon');
+INSERT INTO student VALUES (5, 21, 'JavaScript', 'opurbo');
+INSERT INTO student VALUES (6, 24, 'Python',  'srabon');
+INSERT INTO student VALUES (7, 30, 'Java',  'john');
+INSERT INTO student VALUES (8, 18, 'C++',  'robi');
+INSERT INTO student VALUES (9, 23, 'JavaScript',  'turjo');
+INSERT INTO student VALUES (10, 33, 'C',  'jamshed');
