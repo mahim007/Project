@@ -18,10 +18,8 @@ public class myController {
     MyService service;
 
     @GetMapping("/welcome")
-    public ModelAndView getMessage(){
-        ModelAndView mv=new ModelAndView();
-        mv.setViewName("registration");
-        return mv;
+    public String getMessage(){
+        return "stringMethod";
     }
 
     @PostMapping("/addStudent")
