@@ -1,4 +1,4 @@
 {
-    var x=100/"mahim";
-    alert(x);
+    var bro = ["mahim", "nitol", "ornob"];
+    document.getElementById('text').innerHTML=bro[1];
 }
