@@ -38,13 +38,13 @@ public class myController {
         return mv;
     }
 
-    @RequestMapping("/getUpdateStudent")
-    public ModelAndView updateStudent(@RequestParam("id") int id){
-        ModelAndView mv=new ModelAndView("updateInfo");
-        Student student=service.getStudent(id);
-        mv.addObject(student);
-        return mv;
-    }
+//    @RequestMapping("/getUpdateStudent")
+//    public ModelAndView updateStudent(@RequestParam("id") int id){
+//        ModelAndView mv=new ModelAndView("updateInfo");
+//        Student student=service.getStudent(id);
+//        mv.addObject(student);
+//        return mv;
+//    }
 
     @RequestMapping("/updateStudent")
     public ModelAndView updateStudent(Student student){
