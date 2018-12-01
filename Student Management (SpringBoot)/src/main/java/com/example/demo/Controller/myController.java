@@ -19,7 +19,9 @@ public class myController {
 
     @GetMapping("/welcome")
     public String getMessage(){
-        return "stringMethod";
+        PdfGen pdfGen=new PdfGen();
+        pdfGen.m1();
+        return "showPdf";
     }
 
     @PostMapping("/addStudent")

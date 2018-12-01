@@ -11,5 +11,5 @@ public interface StudentRepo extends JpaRepository<Student, Integer> {
     List<Student> findAllByLang(String s);
     List<Student> findAllByLangAndNameContaining(String lang, String s);
     List<Student> findAllByAgeGreaterThanEqualOrderByName(int age);
-
+    List<Student> findStudentByAgeBetween(int ageStart, int ageEnd);
 }
